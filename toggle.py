@@ -35,7 +35,6 @@ sw1 = Pin(10, Pin.IN, Pin.PULL_DOWN)
 #    else:
 #        led5.off()
 
-
 if (sw5.PULL_UP==0):
     if (sw5.value()==1):
         if (sw5.value()==0):
